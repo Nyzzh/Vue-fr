@@ -11,7 +11,7 @@
 <div id="app" class="app">
   <h1>{{ restaurantName }}</h1>
   <p class="description">
-    Bienvenue dans notre café {{ restaurantName }}! Nous sommes réputés pour
+    Bienvenue dans notre café {{ restaurantName }} ! Nous sommes réputés pour
     notre pain et nos merveilleuses pâtisseries. Faites vous plaisir dès le
     matin ou avec un goûter réconfortant. Mais attention, vous verrez qu'il
     est difficile de s'arrêter.
@@ -56,8 +56,8 @@
   <p>Email : {{ email }}</p>
   <p>Horaires :</p>
   <ul>
-    <li>L-V: 06:00 à 16:00</li>
-    <li>Samedi: 07:00 à 14:00</li>
+    <li>Lundi - Vendredi: 16:00 à 16:30</li>
+    <li>Samedi: 07:00 à 7:01</li>
     <li>Dimanche: 07:00 à 12:00</li>
   </ul>
   <footer class="footer">
@@ -70,10 +70,10 @@
 			const app = new Vue({
 				el: "#app",
 				data: {
-					address: "18 avenue du Beurre, Paris, France",
-					email: "hello@cafewithavue.bakery",
-					phone: "01 88 88 88 88",
-					restaurantName: "La belle vue",
+					address: "7 Place Hoche, Rennes, France",
+					email: "julian.descharreaux@etudiant.univ_rennes1.fr",
+					phone: "01 02 03 04 05",
+					restaurantName: "Le café",
 					shoppingCart: 0,
 					simpleMenu: [
 						{
